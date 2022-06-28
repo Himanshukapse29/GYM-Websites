@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaijaan Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Corinthia&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* CSS reset */
+    body{
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('images/man-g91fa265ee_1920.jpg');
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 63px;
+        top: 20px;
+        /* border: 2px solid red; */
+
+
+    }
+    .left img{
+        width: 255px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+        font-size: 35px;
+        line-height: 19px;
+    }
+    .mid{
+        display: block;
+        width: 36%;
+        font-size: 30px;
+        margin: 20px auto;
+        /* border: 2px solid rgb(0, 255, 115); */
+
+
+
+
+    }
+    .right{
+        position: absolute;
+        right: 33px;
+        top: 20px;
+        display: inline-block;
+
+        /* border: 2px solid rgb(202, 238, 0); */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 22px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 24px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 3px solid grey;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(109, 101, 101);
+    }
+    .container{
+        border: 2px solid rgb(255, 238, 238);
+        margin: 90px 70px;
+       padding: 55px;
+        width: 18%;
+        border-radius: 20px;
+
+    }
+    .form-group input{
+        
+        text-align: center;
+        display: block;
+        width: 320px;
+        font-size: 20px;
+        padding: 11px;
+        margin: 12px;
+        border: solid;
+
+    }
+    .container{
+        text-align: center;
+    }
+    .container button{
+        align-items: center;
+    }
+    
+
+</style>
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+        <img src="images/weight-geacd7cb8d_640.png" alt="">
+        <div>Bhaijaan Fitness</div>
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+<ul class="navbar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Information</a></li>
+    <li><a href="#">Fitness Area</a></li>
+    <li><a href="#">Contact us </a></li>
+</ul>
+        </div>
+        <!-- right for botton -->
+        <div class="right">
+<button class="btn">Call us Now</button><button class="btn">Email us</button>
+        </div>
+    </header>
+  
+    <div class="container">
+        <h1>Join the Best Gym Of this Area</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+                
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Sex">
+                
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Mobile number">
+                
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
